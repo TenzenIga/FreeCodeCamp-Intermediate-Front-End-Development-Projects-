@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch project</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Teko|Arimo|Crete+Round" rel="stylesheet">
+<!--body -->
+
+
+<div class="container">
+  <h1 class='text-center'>Twitch Online</h1>
+  <div class="row" id="menu">
+    <div class="col-lg-6 cold-md-6 col-sm-6 col-xs-12">
+      <button id="showAll" class="button" type="button">All</button>
+      <button type="button" class="button" id="showOnline">Online</button>
+      <button id="showOffline" class="button" type="button">Offline</button>
+    </div>
+    <div class="col-lg-6 cold-md-6 col-sm-6 col-xs-12">
+
+      <div id="tooltipBlock">
+        <span id="tooltip">User doesn't exist</span>
+        <form>
+          <input id="search" type="text" placeholder="Channel name">
+          <button id="submit" class="button" type="button" value="Add">Add</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <div class="row" id='contentOnline'>
+
+  </div>
+  <div class='row' id="contentOffline">
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

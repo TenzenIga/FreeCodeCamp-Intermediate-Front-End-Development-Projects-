@@ -1,0 +1,87 @@
+body{
+  background-color:#87CEFA;
+  
+}
+#menu{
+  padding:5px 1px;
+  margin-top:20px;
+}
+.button{
+  border:none;
+  background-color:inherit;
+  margin:5px auto;
+  font-family:Teko;
+  font-size:1.5em;
+}
+#tooltipBlock{
+  position:relative;
+  display:inline-block;
+}
+#tooltip{
+  font-size:0.9em;
+  color:red;
+  display:none;
+  position: absolute;
+  left:105%;
+    z-index: 1;
+}
+.button:hover{
+  background-color:SlateBlue;
+  }
+
+h1{
+  font-family: 'Black Ops One', cursive;
+  margin:10px auto;
+  color:#8B008B;
+  padding-top:20px; 
+  text-shadow:-3px 2px #1E90FF;
+}
+.nameStatus{
+  display:inline-block;
+  font-family:Arimo;
+  font-size:1.1em;
+}
+.online,.offline{
+  padding:5px 10px;
+  border:2px solid #00BFFF;
+  border-radius:10px;
+}
+h3{
+  margin:10px;
+}
+.preview{
+  max-width:100%;
+  max-height:100%;
+  border:solid 1px black;
+}
+.logo{
+  width:50px;
+  margin:10px 5px;
+  border-radius:75%;
+  border:2px solid white;
+}
+p{
+  font-family:cursive;
+  margin:auto;
+  
+}
+.online{
+  background-color:#FFD700;
+}
+.offline{
+  background-color:#A9A9A9;
+}
+.error{
+  background-color:#008080;
+}
+.status{
+color:red;
+}
+a:link, a:visited {
+ color:inherit;
+  
+}
+.close:hover{
+  background-color:Black;
+  color:azure;
+}
