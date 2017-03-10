@@ -1,0 +1,39 @@
+
+#content{
+  color: white;
+  height:auto;
+  max-width:450px;
+  margin:50px auto;
+  
+  background-color:#093145;
+  padding-top:30px;
+  padding-bottom:20px;
+  padding-left:10px;
+  padding-right:15px;  
+  border:2px;
+  border-radius:10px;
+}
+.temp{
+  font-size:3em;
+}
+.img-thumbnail{
+  margin-bottom:20px;
+  margin-right:10px;
+}
+.switch{
+  font-size:3em;
+}
+p{
+  font-size:1.5em;
+  font-family:monospace;
+}
+.des{
+  font-size:1.6em;
+}
+html { 
+  background:no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -1,0 +1,18 @@
+body{
+  background-image:url('http://kingofwallpapers.com/mountains/mountains-007.jpg');
+}
+h1{
+  font-family:monospace;
+}
+p{
+  font-family: 'Merriweather', serif;
+  font-size:2em;
+}
+#author{
+  font-size:1.3em;
+}
+.container{
+  margin-top:200px;
+  
+  padding-bottom:20px;
+}
